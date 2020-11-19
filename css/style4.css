@@ -422,13 +422,20 @@ h6 {
 
 #fh5co-home {
   background-color: transparent;
-  background-size: contain;
+  background-size: cover;
   background-attachment: fixed;
   position: relative;
   width: 100%;
   background-color: #A4D792;
   color: #fff;
   overflow: hidden;
+}
+
+@media screen and (max-width: 768px) {
+  #fh5co-home {
+    background: no-repeat;
+    background-size: auto;
+  }
 }
 
 #fh5co-home .gradient {
