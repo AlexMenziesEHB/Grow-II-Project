@@ -438,7 +438,7 @@ h6 {
   left: 0;
   right: 0;
   z-index: 2;
-  opacity: .9;
+  opacity: .5;
   -webkit-backface-visibility: hidden;
   background-color: #A4D792;
   /* IE9, iOS 3.2+ */
