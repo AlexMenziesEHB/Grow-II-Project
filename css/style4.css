@@ -422,7 +422,7 @@ h6 {
 
 #fh5co-home {
   background-color: transparent;
-  background-size: auto;
+  background-size: contain;
   background-attachment: fixed;
   position: relative;
   width: 100%;
