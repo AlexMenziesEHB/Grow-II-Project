@@ -34,7 +34,7 @@ a {
 a:hover,
 a:active,
 a:focus {
-  color: #A4D792;
+  color: #af3d35;
   outline: none;
 }
 
@@ -655,8 +655,8 @@ h6 {
 
 #fh5co-intro .fh5co-block:hover .btn:hover,
 #fh5co-intro .fh5co-block:focus .btn:hover {
-  background: #A4D792 !important;
-  border: 2px solid #A4D792 !important;
+  background: #af3d35 !important;
+  border: 2px solid #af3d35 !important;
 }
 
 .watch-video {
