@@ -378,6 +378,14 @@ h1, h2, h3, h4, h5, h6 {
   color: #fff;
   overflow: hidden;
 }
+
+@media screen and (max-width: 768px) {
+  #fh5co-home {
+    background: no-repeat;
+    background-size: auto;
+  }
+}
+
 #fh5co-home .gradient {
   position: absolute;
   top: 0;
@@ -434,6 +442,15 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 300;
   color: rgba(255, 255, 255, 0.8);
   margin: 0;
+}
+
+@media screen and (max-width: 768px) {
+
+  #fh5co-home,
+  #fh5co-home .text-wrap {
+    height: 710px;
+  }
+
 }
 
 .slant {
@@ -565,6 +582,7 @@ h1, h2, h3, h4, h5, h6 {
   width: 100%;
   display: block;
   float: left;
+  padding-left: 35px;
 }
 .watch-video span {
   display: block;
