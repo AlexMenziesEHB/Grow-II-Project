@@ -28,7 +28,7 @@ $(document).ready(function() {
 
 	var magnifVideo = function() {
 		$('.popup-youtube, .popup-vimeo, .popup-gmaps').magnificPopup({
-        disableOn: 900,
+        disableOn: 200,
         type: 'iframe',
         mainClass: 'mfp-fade',
         removalDelay: 160,
