@@ -436,6 +436,21 @@ h1, h2, h3, h4, h5, h6 {
   margin: 0;
 }
 
+@media screen and (max-width: 768px){
+  #fh5co-home {
+    background: no-repeat;
+    background-size: auto;
+}
+
+@media screen and (max-width: 768px) {
+
+  #fh5co-home,
+  #fh5co-home .text-wrap {
+    height: 710px;
+  }
+
+}
+
 .slant {
   position: absolute;
   transform: rotate(-1.7deg);
@@ -565,6 +580,7 @@ h1, h2, h3, h4, h5, h6 {
   width: 100%;
   display: block;
   float: left;
+  padding-left: 35px;
 }
 .watch-video span {
   display: block;
