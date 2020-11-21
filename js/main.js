@@ -77,9 +77,7 @@
 		    	navbar.attr('aria-expanded', 'false');
 		    	$('.js-fh5co-nav-toggle').removeClass('active');
 		    }
-
-		    event.preventDefault();
-		    return false;
+			
 		});
 
 
