@@ -572,6 +572,7 @@ h1, h2, h3, h4, h5, h6 {
   width: 100%;
   display: block;
   float: left;
+  padding-left: 35px;
 }
 .watch-video span {
   display: block;
