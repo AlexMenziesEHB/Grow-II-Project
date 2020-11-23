@@ -1619,8 +1619,8 @@ h6 {
 
 @media screen and (max-width: 480px) {
   .col-xxs-12 {
-    float: none;
-    width: 100%;
+    float: left;
+    width: 50%;
   }
 }
 
