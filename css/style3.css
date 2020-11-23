@@ -11,6 +11,10 @@
 *	Edit this section
 *
 * ======================================================= */
+html{
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: "Source Sans Pro", Arial, sans-serif;
   font-weight: 300;
@@ -1423,5 +1427,20 @@ h1, h2, h3, h4, h5, h6 {
 
 .homepage-QR{
   width: 100px;
+}
+
+.video-pad{
+  padding-top: 275px;
+}
+
+@media screen and (max-width: 768px) {
+  .video-pad{
+    padding-top: 200px;
+  }
+}
+
+.test{
+  text-decoration: none !important;
+  border-bottom: none;
 }
 /*# sourceMappingURL=style3.css.map */
