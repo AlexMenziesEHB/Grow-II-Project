@@ -709,14 +709,14 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #fh5co-counters {
-  background: #0c245a;
+  background: #ffffff;
   overflow: hidden;
   background-color: transparent;
   background-size: cover;
   background-attachment: fixed;
   position: relative;
   width: 100%;
-  padding: 9em 0 10em 0;
+  padding: 5em 0 5em 0;
 }
 @media screen and (max-width: 768px) {
   #fh5co-counters {
@@ -730,7 +730,6 @@ h1, h2, h3, h4, h5, h6 {
   right: 0;
   bottom: 0;
   z-index: 2;
-  background: rgba(0, 0, 0, 0.7);
 }
 #fh5co-counters:before, #fh5co-counters:after {
   position: absolute;
@@ -761,11 +760,9 @@ h1, h2, h3, h4, h5, h6 {
   margin-bottom: 0;
 }
 #fh5co-counters .section-heading h2 {
-  color: #fff;
+  color: #444;
 }
-#fh5co-counters .section-heading h2:after {
-  background: rgba(255, 255, 255, 0.3) !important;
-}
+
 #fh5co-counters .section-heading .subtext h3 {
   color: rgba(255, 255, 255, 0.7) !important;
 }
@@ -792,11 +789,11 @@ h1, h2, h3, h4, h5, h6 {
 }
 #fh5co-counters .fh5co-counter .fh5co-counter-number {
   font-size: 70px;
-  color: #fff;
+  color: #444;
   font-weight: 300;
 }
 #fh5co-counters .fh5co-counter .fh5co-counter-label {
-  color: rgba(255, 255, 255, 0.5);
+  color: #929292;
   font-size: 18px;
   font-weight: 400;
 }
