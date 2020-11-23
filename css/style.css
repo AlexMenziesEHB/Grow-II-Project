@@ -11,6 +11,11 @@
 *	Edit this section
 *
 * ======================================================= */
+html {
+  scroll-behavior: smooth;
+  -webkit-overflow-scrolling: touch;
+}
+
 body {
   font-family: "Source Sans Pro", Arial, sans-serif;
   font-weight: 300;

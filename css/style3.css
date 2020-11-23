@@ -1680,4 +1680,10 @@ h6 {
   border-bottom: none;
 }
 
+@media screen and (max-width: 768px) {
+#fh5co-home {
+  background-size: cover; 
+	background-position-x: 350px;
+}
+}
 /*# sourceMappingURL=style3.css.map */
