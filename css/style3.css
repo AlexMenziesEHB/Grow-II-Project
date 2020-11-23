@@ -1628,6 +1628,13 @@ h6 {
     float: left;
     width: 50%;
   }
+
+  .col-xxs-98{
+padding-right: 7px;
+  }
+  .col-xxs-97{
+    padding-left: 7px;
+      }
 }
 
 .row-bottom-padded-lg {
