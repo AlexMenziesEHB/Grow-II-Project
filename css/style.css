@@ -958,6 +958,11 @@ h1, h2, h3, h4, h5, h6 {
 #fh5co-work .fh5co-project-item .fh5co-text {
   padding: 10px 20px;
 }
+@media screen and (max-width: 992px) {
+  #fh5co-work .fh5co-project-item .fh5co-text {
+    height: 65px;
+  }
+}
 #fh5co-work .fh5co-project-item .fh5co-text h2, #fh5co-work .fh5co-project-item .fh5co-text span {
   text-decoration: none !important;
 }
@@ -1074,6 +1079,12 @@ h1, h2, h3, h4, h5, h6 {
   padding-bottom: 50px;
   margin-bottom: 50px;
   clear: both;
+}
+
+@media screen and (max-width: 768px) {
+  .section-heading {
+    margin-bottom: 0px;
+  }
 }
 .section-heading h2 {
   margin: 0 0 30px 0;
@@ -1388,10 +1399,17 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 @media screen and (max-width: 480px) {
-  .col-xxs-12 {
-    float: none;
-    width: 100%;
+  .col-xxs-99 {
+    float: left;
+    width: 50%;
   }
+
+  .col-xxs-98{
+padding-right: 7px;
+  }
+  .col-xxs-97{
+    padding-left: 7px;
+      }
 }
 
 .row-bottom-padded-lg {
@@ -1428,23 +1446,30 @@ h1, h2, h3, h4, h5, h6 {
   animation-fill-mode: both;
 }
 
-.homepage-QR{
+.homepage-QR {
   width: 100px;
 }
 
-.video-pad{
+.video-pad {
   padding-top: 275px;
 }
 
 @media screen and (max-width: 768px) {
-  .video-pad{
+  .video-pad {
     padding-top: 200px;
   }
 }
 
-.test{
+.test {
   text-decoration: none !important;
   border-bottom: none;
+}
+
+@media screen and (max-width: 768px) {
+#fh5co-home {
+  background-size: cover; 
+	background-position-x: 350px;
+}
 }
 
 /*# sourceMappingURL=style.css.map */
