@@ -16,18 +16,7 @@
   z-index: 999;
 }
 
-.slider {
- background:  rgba(255, 255, 255, 0.856);
-  border-bottom: 50px solid #313a3e;
-  border-top: 50px solid #313a3e;
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  transform: translateY(100%);
-  z-index: 998;
-}
+
 
 .intro h2 {
   color: rgb(233, 233, 233);

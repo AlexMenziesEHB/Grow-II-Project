@@ -11,8 +11,8 @@ tl.to(".text", {
 });
 tl.to(".slider", {
     y: "-100%",
-    duration: 1.5,
-    delay: 0.5
+    duration: 0.4,
+    delay: 0.3
 });
 tl.to(".intro", {
     y: "-100%",
