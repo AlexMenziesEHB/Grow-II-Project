@@ -1703,6 +1703,10 @@ padding-right: 7px;
   border-bottom: none;
 }
 
+.faded{
+  font-size: 20px !important;
+}
+
 @media screen and (max-width: 768px) {
 #fh5co-home {
   background-size: cover; 
