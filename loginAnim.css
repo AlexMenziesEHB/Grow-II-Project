@@ -28,7 +28,7 @@
 
 .intro img{
   padding-top: 25px;
-  width: 150px;
+  width: 450px;
 }
 
 @media only screen and (max-width: 766px) {
@@ -46,7 +46,7 @@
   }
   .intro img{
     padding-top: 25px;
-    width: 100px;
+    width: 180px;
   }
 }
 
