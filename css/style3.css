@@ -226,6 +226,16 @@ h6 {
   transform-origin: 0 0;
 }
 
+.span-image{
+  background-image: url(/images/Weight\ icon\ white.png);
+  background-size: 100%;
+  width: 200px;
+}
+
+.navbar-brandstyle-name{
+  font-weight: 100;
+}
+
 #fh5co-header {
   position: absolute;
   z-index: 99;
