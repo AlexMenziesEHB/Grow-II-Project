@@ -508,6 +508,12 @@ h6 {
   margin: 0 0 20px 0;
 }
 
+@media screen and (max-width: 768px) {
+  #fh5co-home .text-inner h1 {
+    font-size: 35px;
+  }
+  }
+
 #fh5co-home .text-inner h2 {
   font-size: 28px;
   line-height: 38px;
