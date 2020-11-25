@@ -1688,7 +1688,13 @@ padding-right: 7px;
 }
 
 .homepage-QR {
-  width: 100px;
+  width: 350px;
+}
+
+@media screen and (max-width: 768px) {
+  .homepage-QR {
+    width: 250px;
+  }
 }
 
 .video-pad {
