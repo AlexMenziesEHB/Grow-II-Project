@@ -12,7 +12,7 @@ tl.to(".text", {
 tl.to(".slider", {
     y: "-100%",
     duration: 0.4,
-    delay: 0.3
+    delay: 0.6
 });
 tl.to(".intro", {
     y: "-100%",
