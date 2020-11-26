@@ -1734,4 +1734,10 @@ padding-right: 7px;
 	background-position-x: 350px;
 }
 }
+
+.brand-image{
+  content: url(/images/logo/logo\ QR\ white.png);
+  width: 22px; 
+  padding-bottom: 5px;
+}
 /*# sourceMappingURL=style3.css.map */
