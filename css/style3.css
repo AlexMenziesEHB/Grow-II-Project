@@ -1694,12 +1694,12 @@ padding-right: 7px;
 }
 
 .homepage-QR {
-  width: 350px;
+  width: 150px;
 }
 
 @media screen and (max-width: 768px) {
   .homepage-QR {
-    width: 250px;
+    width: 160px;
   }
 }
 
