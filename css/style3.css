@@ -378,6 +378,12 @@ h6 {
   color: #607D8B;
 }
 
+#fh5co-header.navbar-fixed-top .navbar-brand .brand-image{
+  content: url(/images/logo/logo\ QR\ blue.png);
+  width: 22px; 
+  padding-bottom: 5px;
+}
+
 #fh5co-header.navbar-fixed-top #navbar li a {
   color: rgba(0, 0, 0, 0.5);
   -webkit-transition: 0.3s;
