@@ -520,7 +520,7 @@ h6 {
   font-size: 50px;
   color: white;
   margin: 0 0 20px 0;
-  margin-top: -75px;
+  margin-top: -50px;
 }
 
 @media screen and (max-width: 768px) {
@@ -1757,7 +1757,7 @@ padding-right: 7px;
   height: 50px;
   border: 2px solid rgba(255, 255, 255, 0.116);
   border-radius: 5em;
-  margin-top: 200px;
+  margin-top: 25px;
 }
 .scroll:before {
   content: '';
