@@ -506,9 +506,6 @@ h6 {
 
 #fh5co-home .text-inner a {
   color: white;
-  border-bottom: 1px dashed rgba(255, 255, 255, 0.5);
-  -webkit-transition: 0.5s;
-  -o-transition: 0.5s;
   transition: 0.5s;
 }
 
@@ -1752,4 +1749,39 @@ padding-right: 7px;
   width: 22px; 
   padding-bottom: 5px;
 }
+
+.scroll {
+  position: absolute;
+  left: calc(50% - 1em);
+  width: 30px;
+  height: 50px;
+  border: 1px solid white;
+  border-radius: 5em;
+  margin-top: 25px;
+}
+.scroll:before {
+  content: '';
+  position: absolute;
+  left: calc(50% - 0.12em);
+  top: .4em;
+  width: 5px;
+  height: 5px;
+  background: white;
+  border-radius: 50%;
+  -webkit-animation: fadeTo 1.4s ease-in infinite;
+  animation: fadeTo 1.4s ease-in infinite;
+}
+@-webkit-keyframes fadeTo {
+  to {
+    transform: translateY(1em);
+    opacity: 0;
+  }
+}
+@keyframes fadeTo {
+  to {
+    transform: translateY(1em);
+    opacity: 0;
+  }
+}
+
 /*# sourceMappingURL=style3.css.map */
