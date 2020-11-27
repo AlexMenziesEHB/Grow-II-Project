@@ -1756,7 +1756,7 @@ padding-right: 7px;
   left: calc(50% - 1em);
   width: 30px;
   height: 50px;
-  border: 1px solid white;
+  border: 1px solid rgba(255, 255, 255, 0.8);
   border-radius: 5em;
   margin-top: 25px;
 }
@@ -1767,7 +1767,7 @@ padding-right: 7px;
   top: .4em;
   width: 5px;
   height: 5px;
-  background: white;
+  background: rgba(255, 255, 255, 0.8);
   border-radius: 50%;
   -webkit-animation: fadeTo 1.4s ease-in infinite;
   animation: fadeTo 1.4s ease-in infinite;
