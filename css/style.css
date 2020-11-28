@@ -1770,7 +1770,7 @@ padding-right: 7px;
   height: 50px;
   border: 2px solid rgba(255, 255, 255, 0.116);
   border-radius: 5em;
-  margin-top: 25px;
+  margin-top: 300px;
 }
 .scroll:before {
   content: '';
@@ -1797,4 +1797,8 @@ padding-right: 7px;
   }
 }
 
-/*# sourceMappingURL=style3.css.map */
+@media screen and (max-width: 768px) {
+  .scroll {
+    margin-top: 125px !important;
+  }
+}
