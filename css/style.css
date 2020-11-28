@@ -1801,4 +1801,21 @@ padding-right: 7px;
   .scroll {
     margin-top: 125px !important;
   }
+  .scroll:before {
+    top: 1.6em;
+    -webkit-animation: fadeTo 1.4s ease-in infinite;
+    animation: fadeTo 1.4s ease-in infinite;
+  }
+  @-webkit-keyframes fadeTo {
+    to {
+      transform: translateY(-1em);
+      opacity: 0;
+    }
+  }
+  @keyframes fadeTo {
+    to {
+      transform: translateY(-1em);
+      opacity: 0;
+    }
+  }
 }
