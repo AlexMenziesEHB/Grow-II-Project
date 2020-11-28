@@ -468,6 +468,12 @@ h6 {
   transition: 0s;
 }
 
+@media screen and (max-width: 768px) {
+.header-mid{
+  background-position-x: -300px !important;
+}
+}
+
 #fh5co-home {
   background-color: transparent;
   background-size: cover;
