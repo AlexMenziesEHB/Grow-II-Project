@@ -1,4 +1,7 @@
-# EASYGYM
+
+![alt text](https://easygym.netlify.app/images/logo/logo%20blue%20trans%20github.png "EASYGYM LOGO")
+
+
 
 ### Gemaakt door
 Alex Menzies
