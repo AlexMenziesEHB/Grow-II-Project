@@ -33,5 +33,5 @@ visuele beelden in een video dan het luisteren naar een uitleg of het lezen van 
 Scan onderstaande QR code of gebruik volgende link: 
 https://easygym.netlify.app/
 
-![QR-code EASYGYM](https://easygym.netlify.app/QR-codes/Homepage/EASYGYM-QR.png)
+![QR-code EASYGYM](https://easygym.netlify.app/QR-codes/Homepage/EASYGYM-QR2.png)
 
