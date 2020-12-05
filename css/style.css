@@ -1807,6 +1807,9 @@ padding-right: 7px;
   .scroll {
     margin-top: 125px !important;
   }
+  .scrollhome {
+    margin-top: 80px !important;
+  }
   .scroll:before {
     top: 1.6em;
     -webkit-animation: fadeTo 1.4s ease-in infinite;
