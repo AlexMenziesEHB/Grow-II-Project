@@ -1,5 +1,10 @@
 .intro {
-  background: #313a3ef8;
+    background-image: -webkit-gradient(linear, 0% 0%, 100% 100%, color-stop(0, #1b1b1bf1), color-stop(1, #607d8bf3));
+  /* Android 2.3 */
+  background-image: -webkit-repeating-linear-gradient(top left, #1b1b1bf1 0%, #607d8bf3 100%);
+  /* IE10+ */
+  background-image: repeating-linear-gradient(to bottom right, #1b1b1bf1 0%, #607d8bf3 100%);
+  background-image: -ms-repeating-linear-gradient(top left, #1b1b1bf1 0%, #607d8bf3 100%);
   position: fixed;
   top: 0;
   left: 0;
